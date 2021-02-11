@@ -1,0 +1,130 @@
+//Подключение шрифтов//
+
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@400;700;900&family=Roboto:wght@100;300;700&display=swap');
+
+// Файл обнуляющих стилей
+
+@import "nullstyle.scss";
+
+//=========================================================//
+
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+
+//Body=====================================================//
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #fff;
+}
+
+//Container================================================//
+
+.container{
+	width: 100%;
+	max-width: 940px;
+	margin: 0 auto;
+}
+//Header===================================================//
+
+.header{
+	height: 100%;
+	max-height: 65px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0 17px 0;
+	align-items: center;
+}
+.header__logo{
+
+}
+//Nav======================================================//
+
+.nav{
+
+}
+.nav__link{
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 900;
+	text-decoration: none;
+	color: #fff;
+	&:hover{
+		color: #00e0d0;
+		transition: .2s;
+	}
+	margin: 0 0 0 20px;
+	&:first-child{
+		margin: 0;
+	}
+}
+
+//Intro====================================================//
+
+.intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 670px;
+	background: url("../img/bg.png") center no-repeat;
+	background-size: cover;
+	padding-top: 65px;
+	text-align: center;
+}
+.intro__container{
+	width: 100%;
+	max-width: 778px;
+
+}
+.intro__title{
+	font-family: 'Playfair Display', serif;
+	color: #ffffff;
+	font-weight: 900;
+	font-size: 32px;
+	text-transform: capitalize;
+	&:after{
+		content: '';
+		display: block;
+		height: 2px;
+		width: 50px;
+		background-color: #00e0d0;
+		opacity: 0.8;
+		margin: 30px auto ;
+	}
+	margin: -30px 0 0 0;
+}
+.intro__subtitle{
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	color: #ffffff;
+	margin: 0 0 50px 0;
+}
+.button{
+	font-family: 'Hammersmith One', sans-serif;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	color: #00e0d0;
+	text-transform: uppercase;
+	font-size: 16px;
+	border: 1px solid #00e0d0;
+	border-radius: 4px;
+	opacity: 0.8;
+	padding: 11px;
+	&:hover{
+		background-color: #00e0d0;
+		color: #000;
+		transition: .2s;
+	}
+}
