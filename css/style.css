@@ -715,3 +715,100 @@ body {
   color: #000;
   transition: 0.2s;
 }
+
+.footer {
+  margin: 70px 0 0 0;
+  height: 400px;
+  background: url("../img/footer__bg.png") center no-repeat;
+  background-size: cover;
+}
+
+.footer__container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__tajam {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+}
+
+.footer__tajam__logo {
+  margin: 65px 0 0 0;
+}
+
+.footer__tajam__text {
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  margin: 35px 0 0 0;
+}
+
+.footer__ourstudio {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  margin: 80px 0 0 0;
+}
+
+.footer__ourstudio__title {
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer__ourstudio__geo {
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  margin: 45px 0 0 0;
+}
+
+.footer__ourstudio__phone {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  margin: 10px 0 0 0;
+}
+
+.footer__stayintouch__title {
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 80px 0 0 0;
+}
+
+.footer__input {
+  background-color: rgba(255, 255, 255, 0);
+  width: 211px;
+  height: 45px;
+  opacity: 0.5;
+  border: 1px solid #ffffff;
+  padding: 11px 25px;
+  text-transform: capitalize;
+  color: #fff;
+  margin: 45px 0 0 0;
+}
+
+.footer__stayintouch__logos {
+  margin: 25px 0 0 0;
+}
